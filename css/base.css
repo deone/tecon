@@ -360,9 +360,9 @@ h3 {
   font-size: 1.1em;
   line-height: 1.375;
 }
-#updates .module .tweet-content {
+#updates .module .news-highlight {
   float: left;
-  width: 410px;
+  /*width: 410px;*/
   margin-right: 10px;
   background: url(../img/layout/bg-footer-col.png) 412px 0 repeat-y;
   padding-right: 5px;
@@ -441,7 +441,6 @@ legend {
 #lets-connect address .email {
   padding-right: 10px;
   margin-right: 10px;
-  border-right: 3px double #514d47;
 }
 ul.gallery {
   list-style: none;
