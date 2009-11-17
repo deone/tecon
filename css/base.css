@@ -35,8 +35,8 @@
       width: 950px;
     }
     #header {
-      height: 255px;
-      background: #2e9fc1 url(../img/layout/bg-header-new.png) 50% 0 no-repeat;
+	height: 255px;
+	background: #93743a;
     }
     #header .wrap {
       position: relative;
@@ -46,13 +46,13 @@
       top: 40px;
       left: 0;
       float: left;
-      width: 150px;
+      width: 180px;
       height: 90px;
       text-indent: -9999em;
     }
     #header ul {
       position: absolute;
-      top: 52px;
+      top: 190px;
       right: -6px;
       list-style: none;
       line-height: 0;
@@ -120,7 +120,7 @@
       position: absolute;
       top: 160px;
       left: 0;
-      font: 2.125em/1.5 Georgia, "Times New Roman", serif;
+      font: 1.8em/1.5 Georgia, "Times New Roman", serif;
       color: #c1fff3;
       text-shadow: 1px 1px 3px #333;
     }
@@ -243,7 +243,7 @@
     #content {
       clear: both;
       border-top: 1px solid #fff;
-      background: #eae2cb url(../img/layout/bg.gif) 50% 0 repeat-x;
+      background-color: #e7e1ce;
       padding: 18px 0;
       font-size: 1.5em;
     }
