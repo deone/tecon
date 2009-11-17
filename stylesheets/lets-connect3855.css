@@ -1,0 +1,35 @@
+div#letsconnect {
+  background: url(../images/layout/map_locations.png) right 0 no-repeat;
+  padding-bottom: 36px;
+}
+
+div#letsconnect p.large {
+  font-size: 1.09em;
+  margin-bottom: 18px;
+}
+
+div#letsconnect p.large a { text-decoration: underline; }
+
+div#letsconnect p.large span {
+  background: url(../images/layout/bg-trans-light.png);
+  padding: 2px 4px;
+}
+
+div#letsconnect div#ny,
+div#letsconnect div#sf {
+  float: left;
+  width: 265px;
+  padding: 0 58px 36px 0;
+}
+
+div#letsconnect div#ny h2,
+div#letsconnect div#sf h2 { width: 254px; }
+
+div#letsconnect div#ny p,
+div#letsconnect div#sf p {
+  font-size: 1.05em;
+  line-height: 1.35em;
+  padding-bottom: 18px;
+}
+
+div#jointhelist { clear: both; }

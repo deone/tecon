@@ -1,0 +1,206 @@
+/*	Hello Crush Styles
+    ...................................................................... */
+    .left_column h3 {
+      margin: 0 0 .5em;
+      padding: .25em 0 .125em;
+      border-bottom: 3px double #ddd7c6;
+      font-size: 2em;
+    }
+    img.large_opening_image {
+      width: 942px;
+      margin: 0 auto 30px;
+      border: 4px #d2d1c1 solid;
+    }
+    
+    a.return-to-hello {
+      float: right;
+      display: block;
+      padding: 8px 8px 6px;
+      background: url(../images/layout/bg-return-to-hello.png) right 0 repeat-y;
+    }
+    
+    div.left_column {
+      width: 598px;
+      float: left;
+      margin-left: 14px;
+    }
+    
+    div.no_margin {
+      margin-left: 0;
+      width: 624px;
+    }
+    
+    div.right_column {
+      width: 280px;
+      float: right;
+      margin-right: 14px;
+    }
+    
+    div.left_column h2,
+    div.right_column h2 {
+      position: relative;
+      left: -14px;
+    }
+    
+    div.right_column h2 {
+      width: 264px;
+      margin-top: 0;
+    }
+    
+    div.right_column ul { list-style-type: none; }
+    
+    div.left_column p { margin-bottom: 1em; }
+    
+    div.right_column p,
+    div.right_column ul,
+    div.right_column #lets-connect { margin-bottom: 1.5em; }
+
+    div.right_column #lets-connect {
+      background: url(../images/layout/map_alt.png) 0 32px no-repeat;
+      position: relative;
+      left: -14px;
+      min-height: 0;
+    }
+    
+    div.right_column #lets-connect h2 { left: 0; }
+    
+    hr {
+      clear: both;
+      width: 0;
+      height: 0;
+      border: 0;
+      display: block;
+    }
+    
+    div#communication {
+      border-top: 3px double #ddd7c6;
+      padding-top: 30px;
+      margin-bottom: 0px;
+      clear: both;
+    }
+    
+    /*	Partials
+    ...................................................................... */
+
+    #jointhelist, #featuredlovelies {
+      border-top: 3px double #ddd7c6;
+      margin-top: 24px;
+      padding-top: 20px;
+    }
+    
+    div#communication #jointhelist {
+      border: 0;
+      margin-top: 0;
+      padding-top: 0;
+    }
+    
+    div#communication #jointhelist h2 { margin-top: 0; }
+    
+    form { float: left; }
+    
+    p.feed {
+      float: left;
+      margin-top: 2.25em;
+      margin-left: 20px;
+      line-height: 1;
+      position: relative;
+      margin-right: -10px;
+    }
+    p.feed a {
+      background: url(../images/layout/icon-feed.gif) 0 48% no-repeat;
+      padding: 2px;
+      padding-left: 20px;
+      min-height: 16px;
+      color: #646059;
+    }
+    input#list-email {
+      width: 260px;
+    }
+    button#btn-sign-up {
+      vertical-align: middle;
+      border: 0;
+      padding: 0;
+      width: 102px;
+      height: 30px;
+      background: url(../images/layout/button-signup.png) no-repeat;
+      text-indent: -9999em;
+    }
+    
+    /*	Meet the Crew
+    ...................................................................... */
+    
+    div.crew_pair, div.client_pair {
+      float: left;
+      clear: both;
+      position: relative;
+      margin-right: -10px;
+    }
+
+    div.crew_member, div.client_member {
+      margin-right: 10px;
+      width: 306px;
+      float: left;
+      padding-bottom: 42px;
+      position: relative;
+    }
+    
+    div.crew_member h4, div.client_member h4 {
+      font-size: 1.2em;
+      margin-bottom: 2px;
+      font-family: Georgia, "Times New Roman", serif;
+    }
+    div.crew_member img, div.client_member img {
+      width: 100px;
+    }
+    div.crew_member p, div.client_member p {
+      font-size: .77em;
+      margin-bottom: 6px;
+      line-height: 1.5em;
+    }
+    
+    div.crew_member p, x:-moz-any-link, x:default, div.client_member p { line-height: 1.5em; }
+
+    div.crew_member p, x:-moz-any-link, div.client_member p { line-height: 1.5em; }
+
+    div.crew_member img, div.client_member img {
+      float: left;
+      padding-right: 10px;
+    }
+    div.crew_member em,  div.client_member em {
+      font-family: Georgia, "Times New Roman", serif;
+    }
+    
+    div.crew_member ul, div.client_member ul {
+      list-style-type: none;
+      font-size: .76em;
+      background: url(../images/layout/bg-trans-light.png);
+      padding: 4px 6px;
+      line-height: 1.35em;
+      width: 180px;
+      position: absolute;
+      bottom: 42px;
+      left: 110px;
+    }
+    div.crew_member strong, div.client_member strong {
+      font-weight: normal;
+      color: #000;
+    }
+    
+    div.crew_member ul, x:-moz-any-link, x:default, div.client_member ul { line-height: 1.15em; }
+    
+    div.crew_member ul, x:-moz-any-link, div.client_member ul { line-height: 1.15em; }
+    
+    div.crew_member li, div.client_member li {
+      display: inline;
+      padding-right: 6px;
+      border-right: 1px #9d957f solid;
+      margin-right: 3px;
+    }
+    
+    div.crew_member li.last, div.client_member li.last {
+      padding-right: 0;
+      border: 0;
+      margin-right: 0;
+    }
+    
+    h6 { font-weight: bold; }

@@ -1,0 +1,733 @@
+/*  CRUSH + LOVELY
+    crushlovely.com
+    ...................................................................... */
+
+    @import "foundation.css";
+
+
+
+/*	Main Styles
+    ...................................................................... */
+
+    body {
+      background: #0b2028;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      text-shadow: 1px 1px 1px #fff;
+    }
+    a {
+      color: #3f6a79;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    input {
+      border: 1px solid #ada9a1;
+      padding: 6px 5px 7px;
+      background: #fff;
+      font-size: 13px;
+      line-height: 1;
+      font-family: inherit;
+      color: #49717f;
+      vertical-align: middle;
+    }
+    .wrap {
+      margin: 0 auto;
+      width: 950px;
+    }
+    #header {
+      height: 255px;
+      background: #2e9fc1 url(../images/layout/bg-header-new.png) 50% 0 no-repeat;
+    }
+    #header .wrap {
+      position: relative;
+    }
+    #header p#logo a {
+      position: absolute;
+      top: 40px;
+      left: 0;
+      float: left;
+      width: 150px;
+      height: 90px;
+      text-indent: -9999em;
+    }
+    #header ul {
+      position: absolute;
+      top: 52px;
+      right: -6px;
+      list-style: none;
+      line-height: 0;
+    }
+    #header li {
+      display: inline;
+    }
+    #header ul a {
+      float: left;
+      height: 60px;
+      background: url(../images/layout/menu-trans.png) 0 0 no-repeat;
+      text-indent: -9999em;
+    }
+    #header li#m-hellocrush a {
+      width: 162px;
+      background-position: 0 -60px;
+    }
+    #header li#m-workplay a {
+      width: 155px;
+      background-position: -158px -60px;
+    }
+    #header li#m-clients a {
+      width: 116px;
+      background-position: -312px -60px;
+    }
+    #header li#m-playground a {
+      width: 155px;
+      background-position: -433px -60px;
+    }
+    #header li#m-letsconnect a {
+      width: 177px;
+      background-position: -588px -60px;
+    }
+    #header li#m-hellocrush a:hover {
+      background-position: 0 0;
+    }
+    #header li#m-workplay a:hover {
+      background-position: -158px 0;
+    }
+    #header li#m-clients a:hover {
+      background-position: -312px 0;
+    }
+    #header li#m-playground a:hover {
+      background-position: -433px 0;
+    }
+    #header li#m-letsconnect a:hover {
+      background-position: -588px 0;
+    }
+    #hellocrush #header li#m-hellocrush a {
+      background-position: 0 -120px;
+    }
+    #workplay #header li#m-workplay a {
+      background-position: -158px -120px;
+    }
+    #clients #header li#m-clients a {
+      background-position: -312px -120px;
+    }
+    #playground #header li#m-playground a {
+      background-position: -433px -120px;
+    }
+    #letsconnect #header li#m-letsconnect a {
+      background-position: -588px -120px;
+    }
+    #header p#slogan {
+      position: absolute;
+      top: 160px;
+      left: 0;
+      font: 2.125em/1.5 Georgia, "Times New Roman", serif;
+      color: #c1fff3;
+      text-shadow: 1px 1px 3px #333;
+    }
+    #header p#slogan strong {
+      padding: .125em 0;/*
+      background: url(/images/layout/bg-trans.png);*/
+      font-weight: normal;
+      color: #fff;
+    }
+    #header p#m-weplusyou a {
+      position: absolute;
+      right: 0;
+      top: 229px;
+      float: left;
+      width: 104px;
+      height: 26px;
+      text-indent: -9999em;
+    }
+    #header p#m-weplusyou a.active, #header p#m-weplusyou a:hover {
+      background: url(../images/layout/bg-m-weplusyou.png) 1px 0 no-repeat;
+    }
+    /* safari-only */
+    @media screen and (-webkit-min-device-pixel-ratio:0) {
+      #header p#m-weplusyou a.active, #header p#m-weplusyou a:hover {
+        background-position: 3px 0;
+      }
+    }
+    #weplusyou {
+      clear: both;
+      background: #0f6e86 url(../images/layout/bg-weplusyou.png) 50% 0 no-repeat;
+      font-size: 1.2em;
+      line-height: 1.5;
+      color: #dff7f8;
+      text-shadow: 0 -1px 1px #0f6e86;
+      -moz-text-shadow: 0 -1px 1px #0f6e86;
+      text-align: left;
+    }
+    #weplusyou .column {
+      float: left;
+      margin-top: 24px;
+      margin-right: 30px;
+      width: 350px;
+    }
+    #weplusyou .wide {
+      width: 570px;
+      margin-right: 0;
+    }
+    #weplusyou .clear {
+      clear: both;
+    }
+    #weplusyou .wide .column {
+      width: 218px;
+    }
+    #weplusyou .wide .last {
+      margin-right: 0;
+      width: 322px;
+    }
+    #weplusyou ul {
+      list-style: none;
+    }
+    #weplusyou li {
+      margin-bottom: 10px;
+      padding-right: 10px;
+    }
+    #weplusyou .first li {
+      padding-right: 20px;
+      border-right: 3px double #26576d;
+    }
+    #weplusyou .second li {
+      margin-bottom: 22px;
+    }
+    #weplusyou li p.tweet-stamp, #weplusyou li p.readernaut-stamp {
+      text-align: right;
+      line-height: 1;
+      font-family: Georgia, "Times New Roman", serif;
+      font-style: italic;
+    }
+    #weplusyou img {
+      position: relative;
+      float: left;
+      margin: -1px 5px 7px -3px;
+      border: 3px solid #26576d;
+    }
+    #weplusyou img.book {
+      height: 98px;
+    }    
+    #weplusyou img.video {
+      width: 162px;
+      height: 98px
+    }
+    #weplusyou a:hover img {
+      border-color: #5ea1a4;
+    }
+    #weplusyou ul.thumbs-flickr {
+      position: relative;
+      margin-right: -7px;
+    }
+    #weplusyou ul.thumbs-flickr li {
+      display: inline;
+      margin: 0;
+      padding: 0;
+      border: 0;
+    }
+    #weplusyou ul.thumbs-flickr li:after {
+      content: "";
+      display: none;
+    }
+    #weplusyou ul.thumbs-flickr img {
+      margin: -3px 5px 5px -3px;
+    }
+    #weplusyou ul.thumbs-flickr li.last {
+      width: auto;
+    }
+    #weplusyou ul.thumbs-flickr li.last img {
+      margin-right: 0;
+    }
+    #weplusyou a {
+      color: #5ea1a4;
+    }
+    #content {
+      clear: both;
+      border-top: 1px solid #fff;
+      background: #eae2cb url(../images/layout/bg.gif) 50% 0 repeat-x;
+      padding: 18px 0;
+      font-size: 1.5em;
+    }
+    #content p.intro {
+      font: 1.4em/1.375 Georgia, "Times New Roman", serif;
+      color: #666;
+    }
+    h2 {
+      margin-top: 16px;
+      margin-bottom: 19px;
+      width: 476px;
+      height: 34px;
+      background: url(../images/layout/bg-h2.png) 0 0 no-repeat;
+      line-height: 1;
+    }    
+    h2 span {
+      position: relative;
+      top: -2px;
+      display: block;
+      height: 34px;
+      background: url(../images/layout/h2.png) 0 0 no-repeat;
+      text-indent: -9999em;
+    }
+    h2#h2-workplay span {
+      background-position: 0 0;
+    }
+    h2#h2-currentcrushes span {
+      background-position: 0 -34px;
+    }
+    h2#h2-twitter span {
+      background-position: 0 -68px;
+    }
+    h2#h2-jointhelist span {
+      background-position: 0 -136px;
+    }
+    h2#h2-letsconnect span {
+      background-position: 0 -102px;
+    }
+    h2#h2-lovelies span {
+      background-position: 0 -170px;
+    }
+    h2#h2-ourfamily span {
+      background-position: 0 -204px;
+    }
+    h2#h2-ourcapabilities span {
+      background-position: 0 -238px;
+    }
+    h2#h2-featuredlovelies span {
+      background-position: 0 -272px;
+    }
+    h2#h2-hellocrush span {
+      background-position: 0 -306px;
+    }
+    h2#h2-meetthecrew span {
+      background-position: 0 -340px;
+    }
+    h2#h2-keystats span {
+      background-position: 0 -374px;
+    }
+    h2#h2-newyork span {
+      background-position: 0 -408px;
+    }
+    h2#h2-sanfrancisco span {
+      background-position: 0 -442px;
+    }
+    #weplusyou h2 {
+      margin: 0 0 10px;
+      width: 202px;
+      height: 18px;
+      background: url(../images/layout/h2-weplusyou.png) 0 0 no-repeat;
+      text-indent: -9999em;
+    }
+    #weplusyou h2#h2-crushtwitter {
+      background-position: 0 0;
+    }
+    #weplusyou h2#h2-crushreadernaut {
+      background-position: 0 -18px;
+    }
+    #weplusyou h2#h2-crushvimeo {
+      background-position: 0 -36px;
+    }
+    #weplusyou h2#h2-crushflickr {
+      background-position: 0 -54px;
+    }
+    h3 {
+      margin: .25em 0 .625em;
+      font-size: 2em;
+      font-family: Georgia, "Times New Roman", serif;
+    }
+    #currentcrushes {
+      border-top: 3px double #ddd7c6;
+    }
+    #currentcrushes ul {
+      list-style: none;
+      overflow: hidden;
+      margin-bottom: 38px;
+    }
+    #currentcrushes li {
+      display: inline;
+    }
+    #currentcrushes img {
+      float: left;
+      margin-right: 31px;
+      border: 1px solid #c5cfba;
+      border-bottom: 6px solid #4c8390;
+    }
+    #currentcrushes a:hover img {
+      border-color: #4c8390;
+    }
+    #currentcrushes li.last img {
+      margin-right: 0;
+    }
+    #communication {
+      overflow: hidden;
+      padding-bottom: 40px;
+      border-top: 3px double #ddd7c6;
+    }
+    #updates {
+      float: left;
+      margin-right: 30px;
+      width: 624px;
+    }
+    #updates .module {
+      margin-bottom: 32px;
+      padding: 10px 0 10px 15px;
+      background: url(../images/layout/bg-shade.png);
+      font-size: 1.1em;
+      line-height: 1.375;
+    }
+    #updates .module .tweet-content {
+      float: left;
+      width: 410px;
+      margin-right: 10px;
+      background: url(../images/layout/bg-footer-col.png) 412px 0 repeat-y;
+      padding-right: 5px;
+    }
+    #updates .module .tweet-stamp {
+      float: left;
+      width: 174px;
+    }
+    #updates .module .tweet-stamp a {
+      display: block;	
+      position: relative;
+      top: -0.7em;
+      padding: .85em 10px .85em 15px;
+      font-size: .9em;	
+      font-family: Georgia, "Times New Roman", serif;
+      font-style: italic;
+    }
+    #updates .module .tweet-stamp a:hover {
+      text-decoration: none;
+      color: #042b34;
+    }
+    #updates #jointhelist {
+      overflow: hidden;
+      clear: left;
+    }
+    #updates form {
+      float: left;
+      padding-left: 15px;
+    }
+    legend {
+      padding-bottom: .5em;
+      font-family: Georgia, "Times New Roman", serif;
+      font-style: italic;
+    }
+    #updates p.feed {
+      float: left;
+      margin-top: 2.25em;
+      margin-left: 20px;
+      line-height: 1;
+    }
+    #updates p.feed a {
+      background: url(../images/layout/icon-feed.gif) 0 48% no-repeat;
+      padding: 2px;
+      padding-left: 20px;
+      min-height: 16px;
+      color: #646059;
+    }
+    #updates input#list-email {
+      width: 260px;
+    }
+    #updates button#btn-sign-up {
+      vertical-align: middle;
+      border: 0;
+      padding: 0;
+      width: 102px;
+      height: 30px;
+      background: url(../images/layout/button-signup.png) no-repeat;
+      text-indent: -9999em;
+    }
+    #lets-connect {
+      float: left;
+      width: 296px;
+      min-height: 334px;
+      background: url(../images/layout/map.png) 50% 48px no-repeat;
+    }
+    #lets-connect address {
+      margin-left: 15px;
+      padding-top: 13px;
+    }
+    #lets-connect address strong {
+      display: block;
+      padding-top: 1em;
+      text-transform: uppercase;
+      color: #666;
+    }
+    #lets-connect address .email {
+      padding-right: 10px;
+      margin-right: 10px;
+      border-right: 3px double #514d47;
+    }
+    ul.gallery {
+      list-style: none;
+      line-height: 0;
+    }
+    #hellocrush ul.gallery {
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+    ul.gallery li {
+      clear: both;
+      position: relative;
+      margin-bottom: 35px;
+      padding: 4px 0;
+      background: #d2d2c5 url(../images/layout/bg-module.png) 100% 4px no-repeat;
+      overflow: hidden;
+    }
+    #hellocrush ul.gallery li {
+      background-position: 0 4px;
+    }
+    ul.gallery li h3 {
+      float: right;
+      margin: 19px 15px 6px;
+      width: 325px;
+      font-size: 1.25em;
+      line-height: 1;
+    }
+    #hellocrush ul.gallery li h3 {
+      float: left;
+    }
+    ul.gallery li p {
+      margin: 0 15px 0 610px;
+      font-size: .95em;
+      line-height: 1.4;
+    }
+    #hellocrush ul.gallery li p {
+      margin: 0 610px 0 15px;
+    }
+    ul.gallery li p.gallery-item-image, #hellocrush ul.gallery li p.gallery-item-image {
+      margin: 0;
+      line-height: 0;
+    }
+    ul.gallery li p.gallery-item-image img {
+      float: left;
+      margin-right: 4px;
+    }
+    #hellocrush ul.gallery li p.gallery-item-image img {
+      float: right;
+      margin-right: 0;
+      margin-left: 4px;
+    }
+    ul.gallery li p.gallery-item-url {
+      margin-bottom: 20px;
+      font-size: 1em;
+      line-height: 1;
+    }
+    ul.gallery li ul.gallery-item-thumbs {
+      list-style: none;
+      margin-left: 610px;
+      position: absolute;
+      bottom: 18px;
+      left: 0;
+    }
+    ul.gallery li ul.gallery-item-thumbs li {
+      clear: none;
+      margin-bottom: 0;
+      padding: 0;
+      background: none;
+      overflow: visible;
+      display: inline;
+    }
+    ul.gallery li ul.gallery-item-thumbs li img {
+      float: left;
+      margin-right: 12px;
+      border: 1px solid #cad6cb;
+    }
+    ul.gallery li ul.gallery-item-thumbs li a:hover img {
+      border: 1px solid #3f6a79;
+    }
+    ul.gallery li ul.gallery-item-thumbs li a.active img {
+      border: 1px solid #000;
+    }
+    #feature-content {
+      margin-top: 20px;
+      margin-bottom: 30px;
+      border: 4px solid #b2c6bf;
+      border-width: 4px 0;
+      position: relative;
+      line-height: 0;
+    }
+    #feature-content #features, #feature-content img, #feature-content .feature-content {
+      height: 240px !important;
+    }
+    #feature-content #features, #feature-content img {
+      width: 950px !important;
+    }
+    #feature-content .feature a {
+      display: block;
+    }
+    #feature-content .feature-content {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: url(../images/layout/bg-trans-dark.png);
+      width: 328px;
+      color: #fff;
+      font-size: .9em;
+      text-shadow: 1px 1px 1px #000;
+    }
+    #feature-content .feature-content a {
+      color: #fff;
+      font-style: italic;
+      text-decoration: underline;
+    }
+    #feature-content h2 {
+      margin: 30px 20px 10px;
+      width: auto;
+      height: auto;
+      background: none;
+      font-size: 2em;
+      font-family: Georgia, "Times New Roman", serif;
+    }
+    #feature-content p {
+      margin-left: 20px;
+      margin-right: 20px;
+      font-size: 1.05em;
+      line-height: 1.375;
+    }
+    #feature-content ul.features-menu {
+      position: absolute;
+      top: 200px;
+      left: 224px;
+      list-style: none;
+      z-index: 50;
+    }
+    #feature-content ul.features-menu li {
+      display: inline;
+    }
+    #feature-content ul.features-menu a {
+      float: left;
+      width: 42px;
+      height: 30px;
+      margin-right: 10px;
+      background: url(../images/layout/pagination.png) no-repeat;
+      text-indent: -9999em;
+    }
+    #feature-content ul.features-menu a.previous {
+      background-position: 0 0;
+    }
+    #feature-content ul.features-menu a.next {
+      background-position: -52px 0;
+    }    
+    #feature-content ul.features-menu a.previous:hover {
+      background-position: 0 -40px;
+    }
+    #feature-content ul.features-menu a.next:hover {
+      background-position: -52px -40px;
+    }
+    #footer {
+      clear: both;
+      border-top: 1px solid #fff;
+      background: url(../images/layout/bg-weplusyou.png) 50% 0;
+      color: #c1fff3;
+      text-shadow: 1px 1px 3px #000;
+    }
+    #footer a {
+      color: #fff;
+      font-size: 1.1em;
+      line-height: 1;
+    }
+    #footer a:hover {
+      text-decoration: none;
+      background: url(../images/layout/bg-trans.png);
+    }
+    #footer .wrap {
+      overflow: hidden;
+      margin: 20px auto;
+      background: url(../images/layout/bg-footer-col.png) 50% 0 repeat-y;
+    }
+    #footer .column {
+      float: left;
+      margin-left: 10px;
+      margin-right: 40px;
+      width: 276px;
+      overflow: hidden;
+    }
+    #footer .last {
+      margin-right: 0;
+    }
+    #footer .column h2 {
+      clear: both;
+      margin: 0;
+      padding: 0 0 4px;
+      position: static;
+      width: auto;
+      height: auto;
+      background: none;
+      text-indent: 0;
+      font-size: 1.6em;
+      font-family: Georgia, "Times New Roman", serif;
+    }
+    #footer .column h2.border {
+      padding-top: 22px;
+      border-top: 1px solid #256e78;
+    }
+    #footer .column ul {
+      list-style: none;
+      float: left;
+      width: 296px;
+    }
+    #footer .column ul ul {
+      float: none;
+      width: auto;
+    }
+    #footer .column li {
+      float: left;
+      border-top: 1px solid #16565e;
+      width: 296px;
+    }
+    #footer .column li li {
+      float: none;
+      border: 0;
+      width: auto;
+    }
+    #footer .column li a {
+      display: block;
+      padding: 6px 15px 5px;
+      border-top: 1px solid #256e78;
+    }
+    #footer .column li li a {
+      padding: 5px 15px 8px 30px;
+      border-top: 0;
+    }
+    #footer-legal {
+      background: #042b34;
+    }	
+    #footer #footer-legal p {
+      margin: 0 auto;
+      padding: 12px 0 10px;
+      width: 960px;
+      line-height: 1.5;
+      text-transform: uppercase;
+      color: #fff;
+    }
+    .right_column li {
+      padding: .125em 0;
+    }
+    .boost {
+      position: relative;
+      border-top: 1px solid #ddd7c6;
+      margin-left: -15px;
+      margin-right: -15px;
+      background: url(../images/layout/bg-shade.png);
+      padding: 15px;
+      font-weight: normal;
+      font: italic 1.25em/1.375 Georgia, "Times New Roman", serif;
+    }
+    .boost strong {
+      font-weight: normal;
+    }
+    .left_column .boost {
+      margin-right: 15px;
+    }
+
+
+
+/*	Fixes
+    ...................................................................... */
+
+    #weplusyou li:after, #weplusyou .wrap:after, #updates .module:after, #content:after {
+      content: ".";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden;
+    }
