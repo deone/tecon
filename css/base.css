@@ -605,3 +605,18 @@ ul.gallery li ul.gallery-item-thumbs li a.active img {
   clear: both;
   visibility: hidden;
 }
+table td, table th    {
+    padding: 5px;
+    border-bottom: 1px solid #ddd7c6;
+}
+table th    {
+    font-weight: bold;
+}
+table	{
+    border-top: 3px double #ddd7c6;
+    border-bottom: 3px double #ddd7c6;
+}
+table tr:hover	{
+    background: #042b34;
+    color: #fff;
+}
