@@ -78,7 +78,7 @@ input {
   text-indent: -9999em;
 }
 #header p#m-weplusyou a.active, #header p#m-weplusyou a:hover {
-  background: url(../img/layout/bg-m-weplusyou.png) 1px 0 no-repeat;
+  background: url(../img/bg-m-weplusyou.png) 1px 0 no-repeat;
 }
 /* safari-only */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
@@ -88,7 +88,7 @@ input {
 }
 #weplusyou {
   clear: both;
-  background: #0f6e86 url(../img/layout/bg-weplusyou.png) 50% 0 no-repeat;
+  background: #0f6e86 url(../img/bg-weplusyou.png) 50% 0 no-repeat;
   font-size: 1.2em;
   line-height: 1.5;
   color: #dff7f8;
@@ -247,7 +247,7 @@ h2#h2-sanfrancisco span {
   margin: 0 0 10px;
   width: 202px;
   height: 18px;
-  background: url(../img/layout/h2-weplusyou.png) 0 0 no-repeat;
+  background: url(../img/h2-weplusyou.png) 0 0 no-repeat;
   text-indent: -9999em;
 }
 #weplusyou h2#h2-crushtwitter {
@@ -303,7 +303,7 @@ h3 {
 #updates .module {
   margin-bottom: 32px;
   padding: 10px 0 10px 15px;
-  background: url(../img/layout/bg-shade.png);
+  background: url(../img/bg-shade.png);
   font-size: 1.1em;
   line-height: 1.375;
 }
@@ -311,7 +311,7 @@ h3 {
   float: left;
   /*width: 410px;*/
   margin-right: 10px;
-  background: url(../img/layout/bg-footer-col.png) 412px 0 repeat-y;
+  background: url(../img/bg-footer-col.png) 412px 0 repeat-y;
   padding-right: 5px;
 }
 #updates .module .tweet-stamp {
@@ -351,7 +351,7 @@ h3 {
   line-height: 1;
 }
 #updates p.feed a {
-  background: url(../img/layout/icon-feed.gif) 0 48% no-repeat;
+  background: url(../img/icon-feed.gif) 0 48% no-repeat;
   padding: 2px;
   padding-left: 20px;
   min-height: 16px;
@@ -366,14 +366,14 @@ h3 {
   padding: 0;
   width: 102px;
   height: 30px;
-  background: url(../img/layout/button-signup.png) no-repeat;
+  background: url(../img/button-signup.png) no-repeat;
   text-indent: -9999em;
 }
 #lets-connect {
   float: left;
   width: 296px;
   min-height: 334px;
-  background: url(../img/layout/map.png) 50% 48px no-repeat;
+  background: url(../img/map.png) 50% 48px no-repeat;
 }
 #lets-connect address {
   margin-left: 15px;
@@ -402,7 +402,7 @@ ul.gallery li {
   position: relative;
   margin-bottom: 35px;
   padding: 4px 0;
-  background: #d2d2c5 url(../img/layout/bg-module.png) 100% 4px no-repeat;
+  background: #d2d2c5 url(../img/bg-module.png) 100% 4px no-repeat;
   overflow: hidden;
 }
 #hellocrush ul.gallery li {
@@ -491,7 +491,7 @@ ul.gallery li ul.gallery-item-thumbs li a.active img {
   position: absolute;
   top: 0;
   left: 0;
-  background: url(../img/layout/bg-trans-dark.png);
+  background: url(../img/bg-trans-dark.png);
   width: 328px;
   color: #fff;
   font-size: .9em;
@@ -531,7 +531,7 @@ ul.gallery li ul.gallery-item-thumbs li a.active img {
   width: 42px;
   height: 30px;
   margin-right: 10px;
-  background: url(../img/layout/pagination.png) no-repeat;
+  background: url(../img/pagination.png) no-repeat;
   text-indent: -9999em;
 }
 #feature-content ul.features-menu a.previous {
@@ -549,7 +549,7 @@ ul.gallery li ul.gallery-item-thumbs li a.active img {
 #footer {
   clear: both;
   border-top: 1px solid #fff;
-  background: url(../img/layout/bg-weplusyou.png) 50% 0;
+  background: url(../img/bg-weplusyou.png) 50% 0;
   color: #c1fff3;
   text-shadow: 1px 1px 3px #000;
 }
@@ -560,7 +560,7 @@ ul.gallery li ul.gallery-item-thumbs li a.active img {
 }
 #footer a:hover {
   text-decoration: none;
-  background: url(../img/layout/bg-trans.png);
+  background: url(../img/bg-trans.png);
 }
 #footer-legal {
   background: #042b34;
@@ -581,7 +581,7 @@ ul.gallery li ul.gallery-item-thumbs li a.active img {
   border-top: 1px solid #ddd7c6;
   margin-left: -15px;
   margin-right: -15px;
-  /*background: url(../img/layout/bg-shade.png);*/
+  /*background: url(../img/bg-shade.png);*/
   padding: 15px;
   font-weight: normal;
   font: italic 1.25em/1.375 Georgia, "Times New Roman", serif;
@@ -605,18 +605,29 @@ ul.gallery li ul.gallery-item-thumbs li a.active img {
   clear: both;
   visibility: hidden;
 }
-table td, table th    {
+#clients td, th    {
     padding: 5px;
     border-bottom: 1px solid #ddd7c6;
+}
+td.last	{
+    border-bottom: none;
 }
 table th    {
     font-weight: bold;
 }
 table	{
     border-top: 3px double #ddd7c6;
-    border-bottom: 3px double #ddd7c6;
 }
-table tr:hover	{
+#clients table tbody tr:hover	{
     background: #042b34;
     color: #fff;
+}
+#contactus table h2	{
+    width: 200px;
+}
+#contactus table    {
+    margin-bottom: 20px;
+}
+#contactus table td	{
+    padding-top: 10px;
 }
