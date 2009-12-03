@@ -10,16 +10,6 @@ a {
 a:hover {
   text-decoration: underline;
 }
-input {
-  border: 1px solid #ada9a1;
-  padding: 6px 5px 7px;
-  background: #fff;
-  font-size: 13px;
-  line-height: 1;
-  font-family: inherit;
-  color: #49717f;
-  vertical-align: middle;
-}
 .wrap {
   margin: 0 auto;
   width: 950px;
@@ -30,15 +20,6 @@ input {
 }
 #header .wrap {
   position: relative;
-}
-#header p#logo a {
-  position: absolute;
-  top: 40px;
-  left: 0;
-  float: left;
-  width: 180px;
-  height: 90px;
-  text-indent: -9999em;
 }
 #header ul {
   position: absolute;
@@ -67,117 +48,6 @@ input {
   text-align: right;
   font-style: italic;
 }
-
-#header p#m-weplusyou a {
-  position: absolute;
-  right: 0;
-  top: 229px;
-  float: left;
-  width: 104px;
-  height: 26px;
-  text-indent: -9999em;
-}
-#header p#m-weplusyou a.active, #header p#m-weplusyou a:hover {
-  background: url(../img/bg-m-weplusyou.png) 1px 0 no-repeat;
-}
-/* safari-only */
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  #header p#m-weplusyou a.active, #header p#m-weplusyou a:hover {
-    background-position: 3px 0;
-  }
-}
-#weplusyou {
-  clear: both;
-  background: #0f6e86 url(../img/bg-weplusyou.png) 50% 0 no-repeat;
-  font-size: 1.2em;
-  line-height: 1.5;
-  color: #dff7f8;
-  text-shadow: 0 -1px 1px #0f6e86;
-  -moz-text-shadow: 0 -1px 1px #0f6e86;
-  text-align: left;
-}
-#weplusyou .column {
-  float: left;
-  margin-top: 24px;
-  margin-right: 30px;
-  width: 350px;
-}
-#weplusyou .wide {
-  width: 570px;
-  margin-right: 0;
-}
-#weplusyou .clear {
-  clear: both;
-}
-#weplusyou .wide .column {
-  width: 218px;
-}
-#weplusyou .wide .last {
-  margin-right: 0;
-  width: 322px;
-}
-#weplusyou ul {
-  list-style: none;
-}
-#weplusyou li {
-  margin-bottom: 10px;
-  padding-right: 10px;
-}
-#weplusyou .first li {
-  padding-right: 20px;
-  border-right: 3px double #26576d;
-}
-#weplusyou .second li {
-  margin-bottom: 22px;
-}
-#weplusyou li p.tweet-stamp, #weplusyou li p.readernaut-stamp {
-  text-align: right;
-  line-height: 1;
-  font-family: Georgia, "Times New Roman", serif;
-  font-style: italic;
-}
-#weplusyou img {
-  position: relative;
-  float: left;
-  margin: -1px 5px 7px -3px;
-  border: 3px solid #26576d;
-}
-#weplusyou img.book {
-  height: 98px;
-}    
-#weplusyou img.video {
-  width: 162px;
-  height: 98px
-}
-#weplusyou a:hover img {
-  border-color: #5ea1a4;
-}
-#weplusyou ul.thumbs-flickr {
-  position: relative;
-  margin-right: -7px;
-}
-#weplusyou ul.thumbs-flickr li {
-  display: inline;
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
-#weplusyou ul.thumbs-flickr li:after {
-  content: "";
-  display: none;
-}
-#weplusyou ul.thumbs-flickr img {
-  margin: -3px 5px 5px -3px;
-}
-#weplusyou ul.thumbs-flickr li.last {
-  width: auto;
-}
-#weplusyou ul.thumbs-flickr li.last img {
-  margin-right: 0;
-}
-#weplusyou a {
-  color: #5ea1a4;
-}
 #content {
   clear: both;
   border-top: 1px solid #fff;
@@ -186,12 +56,12 @@ input {
   font-size: 1.5em;
 }
 #content p.intro {
-  font: 1.4em/1.375 Georgia, "Times New Roman", serif;
+  font: 1.2em/1.375 Georgia, "Times New Roman", serif;
   color: #666;
 }
 h2 {
-  margin-top: 16px;
-  margin-bottom: 19px;
+  /*margin-top: 16px;
+  margin-bottom: 19px;*/
   width: 476px;
   height: 34px;
   line-height: 1;
@@ -201,74 +71,10 @@ h2 span {
     font-weight: bold;
     font-size: 20px;
 }
-h2#h2-workplay span {
-  background-position: 0 0;
-}
-h2#h2-whoweare span {
-  background-position: -5px -5px;
-}
-h2#h2-twitter span {
-  background-position: -5px -64px;
-}
-h2#h2-jointhelist span {
-  background-position: -5px -178px;
-}
-h2#h2-letsconnect span {
-  background-position: -5px -121px;
-}
-h2#h2-lovelies span {
-  background-position: 0 -170px;
-}
-h2#h2-ourfamily span {
-  background-position: 0 -204px;
-}
-h2#h2-ourcapabilities span {
-  background-position: 0 -238px;
-}
-h2#h2-featuredlovelies span {
-  background-position: 0 -272px;
-}
-h2#h2-hellocrush span {
-  background-position: 0 -306px;
-}
-h2#h2-meetthecrew span {
-  background-position: 0 -340px;
-}
-h2#h2-keystats span {
-  background-position: 0 -374px;
-}
-h2#h2-newyork span {
-  background-position: 0 -408px;
-}
-h2#h2-sanfrancisco span {
-  background-position: 0 -442px;
-}
-#weplusyou h2 {
-  margin: 0 0 10px;
-  width: 202px;
-  height: 18px;
-  background: url(../img/h2-weplusyou.png) 0 0 no-repeat;
-  text-indent: -9999em;
-}
-#weplusyou h2#h2-crushtwitter {
-  background-position: 0 0;
-}
-#weplusyou h2#h2-crushreadernaut {
-  background-position: 0 -18px;
-}
-#weplusyou h2#h2-crushvimeo {
-  background-position: 0 -36px;
-}
-#weplusyou h2#h2-crushflickr {
-  background-position: 0 -54px;
-}
 h3 {
   margin: .25em 0 .625em;
   font-size: 2em;
   font-family: Georgia, "Times New Roman", serif;
-}
-#whoweare {
-  border-top: 3px double #ddd7c6;
 }
 #whoweare ul {
   list-style: none;
@@ -311,7 +117,7 @@ h3 {
   float: left;
   /*width: 410px;*/
   margin-right: 10px;
-  background: url(../img/bg-footer-col.png) 412px 0 repeat-y;
+  /*background: url(../img/bg-footer-col.png) 412px 0 repeat-y;*/
   padding-right: 5px;
 }
 #updates .module .tweet-stamp {
@@ -374,10 +180,6 @@ h3 {
   width: 296px;
   min-height: 334px;
   background: url(../img/map.png) 50% 48px no-repeat;
-}
-#lets-connect address {
-  margin-left: 15px;
-  padding-top: 13px;
 }
 #lets-connect address strong {
   display: block;
@@ -605,9 +407,13 @@ ul.gallery li ul.gallery-item-thumbs li a.active img {
   clear: both;
   visibility: hidden;
 }
-#clients td, th    {
+#clients td, th,
+#projects td, th    {
     padding: 5px;
     border-bottom: 1px solid #ddd7c6;
+}
+#projects table tbody td   {
+    font-size: 12px;
 }
 td.last	{
     border-bottom: none;

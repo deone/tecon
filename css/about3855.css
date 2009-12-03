@@ -1,45 +1,21 @@
-/*	Hello Crush Styles
-    ...................................................................... */
-    .left_column h3 {
-      margin: 0 0 .5em;
-      padding: .25em 0 .125em;
-      border-bottom: 3px double #ddd7c6;
-      font-size: 2em;
-    }
-    img.large_opening_image {
-      width: 942px;
-      margin: 0 auto 30px;
-      border: 4px #d2d1c1 solid;
-    }
-    
-    a.return-to-hello {
-      float: right;
-      display: block;
-      padding: 8px 8px 6px;
-      background: url(../images/layout/bg-return-to-hello.png) right 0 repeat-y;
-    }
-    
-    div.left_column {
-      width: 598px;
-      float: left;
-      margin-left: 14px;
-    }
-    
-    div.no_margin {
-      margin-left: 0;
-      width: 624px;
-    }
-    
-    div.right_column {
-      width: 280px;
-      float: right;
-      margin-right: 14px;
-    }
+div.left_column {
+    width: 598px;
+    float: left;
+    margin-left: 14px;
+}
+div.no_margin {
+    margin-left: 0;
+    width: 624px;
+}
+div.right_column {
+    width: 280px;
+    float: right;
+    margin-right: 14px;
+}
     
     div.left_column h2,
     div.right_column h2 {
       position: relative;
-      left: -14px;
     }
     
     div.right_column h2 {
@@ -49,7 +25,9 @@
     
     div.right_column ul { list-style-type: none; }
     
-    div.left_column p { margin-bottom: 1em; }
+    div.left_column p { 
+	margin-bottom: 1em;
+    }
     
     div.right_column p,
     div.right_column ul,
@@ -78,6 +56,30 @@
       margin-bottom: 0px;
       clear: both;
     }
+
+
+/*	Hello Crush Styles
+    ...................................................................... */
+    .left_column h3 {
+      margin: 0 0 .5em;
+      padding: .25em 0 .125em;
+      border-bottom: 3px double #ddd7c6;
+      font-size: 2em;
+    }
+    img.large_opening_image {
+      width: 942px;
+      margin: 0 auto 30px;
+      border: 4px #d2d1c1 solid;
+    }
+    
+    a.return-to-hello {
+      float: right;
+      display: block;
+      padding: 8px 8px 6px;
+      background: url(../images/layout/bg-return-to-hello.png) right 0 repeat-y;
+    }
+    
+    
     
     /*	Partials
     ...................................................................... */
