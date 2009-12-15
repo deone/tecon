@@ -15,7 +15,7 @@ a:hover {
   width: 950px;
 }
 #header {
-    height: 180px;
+    height: 220px;
     background-color: #9d8851;
 }
 #logo	{
@@ -26,7 +26,7 @@ a:hover {
 }
 #header ul {
   position: absolute;
-  top: 160px;
+  top: 200px;
   right: -2px;
   list-style: none;
   line-height: 0;
@@ -43,17 +43,19 @@ a:hover {
 }
 #header p#mission   {
   position: absolute;
-  top: 20px;
+  top: 40px;
   left: 550px;
-  font: 1.45em/1.5 Georgia, "Times New Roman", serif;
+  font: 1.5em/1.5 Georgia, "Times New Roman", serif;
   color: #fff;
+  text-shadow: 1px 1px 3px #333;
   text-align: right;
   font-style: italic;
 }
 #content {
   clear: both;
   border-top: 1px solid #fff;
-  /*background-color: #b4a882;*/
+  /*background-color: #e7e1ce;*/
+  background-color: #b4a882;
   padding: 18px 0;
   font-size: 1.5em;
 }
@@ -62,8 +64,10 @@ a:hover {
   color: #666;
 }
 h2 {
-  margin-top: 16px;
-  margin-bottom: 19px;
+  /*margin-top: 16px;
+  margin-bottom: 19px;*/
+  width: 476px;
+  height: 34px;
   line-height: 1;
 }    
 h2 span {
@@ -436,21 +440,4 @@ table	{
 }
 #contactus table td	{
     padding-top: 10px;
-}
-ul.news	{
-    height: 200px;
-    overflow: auto;
-    padding-bottom: 10px;
-}
-ul.news li  {
-    background-color: #eee8aa;
-    padding: 5px;
-    margin: 0 0 5px 0;
-}
-ul.news li a	{
-    color: inherit;
-}
-ul.news li a:hover  {
-    color: #000;  
-    text-decoration: none;
 }

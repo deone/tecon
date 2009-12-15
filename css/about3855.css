@@ -7,23 +7,26 @@ div.no_margin {
     margin-left: 0;
     width: 624px;
 }
-div.right_column {
+
+div.right_column    {
     width: 280px;
     float: right;
-    margin-right: 14px;
 }
-    
+div.right_column h2 {
+    background-color: #5c5c5c;
+    color: #fff;
+    margin: 0;
+    padding: 10px;
+}
+div.right_column ul {
+    list-style-type: none;
+    background-color: #dbdbdb;
+    padding: 10px;
+}
     div.left_column h2,
     div.right_column h2 {
       position: relative;
     }
-    
-    div.right_column h2 {
-      width: 264px;
-      margin-top: 0;
-    }
-    
-    div.right_column ul { list-style-type: none; }
     
     div.left_column p { 
 	margin-bottom: 1em;
