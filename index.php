@@ -132,32 +132,6 @@
 		    </ul>
 		</div>
 
-		<!--<div id="communication">
-		    <div id="updates">
-			<h2 id="h2-twitter"><span>News Bits</span></h2>
-			<div class="module">
-			    <p class="news-highlight">Tecon waxing strong in the swampy waters of Niger delta.</p>    
-			</div>
-
-			<div id="jointhelist">
-			    <h2 id="h2-jointhelist"><span>Careers</span></h2>
-			    <p>Interested in working with us? <span id="career-info">Send your resume to <strong>careers@teconoilserv.com</strong></span>.</p>
-			</div>
-		    </div>
-
-		    <div id="lets-connect">
-			<h2 id="h2-letsconnect"><span>Contact</span></h2>
-			<address>
-			    <a href="mailto:info@teconoilserv.com" class="email">info@teconoilserv.com</a>
-			    <br />
-			    <strong>HEAD OFFICE</strong>
-			    47, Yeshayahu Lasode Crescent,<br/>
-			    (By Mobil House), <abbr title="Victoria Island">VI</abbr>, Lagos<br/>
-			    Nigeria.<br/><br/>
-			</address>
-		    </div>
-		</div>-->
-		<hr />
 	    </div><!-- .wrap -->
 	</div><!-- #content -->
 

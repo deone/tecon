@@ -2,44 +2,19 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
     <head profile="http://gmpg.org/xfn/11">
 	<title>Tecon Oil Services Limited | Clients</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<meta name="MSSmartTagsPreventParsing" content="true" />
-	<meta name="description" content="" />
-	<meta name="keywords" content=""/>
-	<meta http-equiv="content_language" content="en_us"/>
-	<meta name="rating" content="global"/>
-	<meta name="robots" content="index, follow, noodp"/>
-	<meta http-equiv="imagetoolbar" content="false"/>
 	<link rel="stylesheet" type="text/css" href="css/base.css"/>
-
 	<script src="js/base_packaged2b6f.js?1256146892" type="text/javascript"></script>
 	<link href="css/about3855.css?1256146886" media="screen" rel="stylesheet" type="text/css" />
     </head>
 
     <body id="clients">
-	<div id="header">
-	    <div class="wrap">
-		<p id="mission">
-		    Our mission is to be the preferred indigenous Oilfield Service Contractor providing cost effective / leading 
-		    edge Equipment / Tools, Rental, and Integrated Well Engineering Services to our customers at high investment 
-		    returns to our shareholders.
-		</p>
-		<ul>
-		    <li><a href="about.html">About Us</a></li>
-		    <li><a href="index.html#content">Services</a></li>
-		    <li><a href="clients.html">Clients</a></li>
-		    <li><a href="projects.html">Projects</a></li>
-		    <li><a href="personnel.html">Personnel</a></li>
-		    <li><a href="contact.html">Contact Us</a></li>
-		</ul>
-	    </div><!-- .wrap -->
-	</div><!-- #header -->
+	<?php include("header.inc.php"); ?>
 
 	<div id="content">
 	    <div class="wrap">
-		<h2 id="h2-lovelies"><span>Clients</span></h2>
 		<img src="img/lovelies_opener.jpg" class="large_opening_image" alt="Clients"/>
 		<div class="left_column no_margin">
+		    <h2 id="h2-lovelies"><span>Clients</span></h2>
 		    <p class="intro">Here's a list of companies we do business with:</p>
 		    <table>
 			<thead>
@@ -193,9 +168,6 @@
 			</tbody>
 		    </table>
 		    <br/>
-		    <p class="boost">
-			<strong>So what are we waiting for? <a href="contact.html">Tell us about your project</a>.</strong>
-		    </p>
 		</div>
 
 		<div class="right_column">
@@ -211,36 +183,11 @@
 		    </ul>
 		</div>
 
-		<div id="communication">
-		    <div class="left_column">
-			<div id="jointhelist">
-			    <h2 id="h2-jointhelist"><span>Careers</span></h2>
-			    <p>Interested in working with us? <span id="career-info">Send your resume to <strong>careers@teconoilserv.com</strong></span>.</p>
-			</div><!-- #jointhelist -->
-		    </div>
-  
-		    <div class="right_column">
-			<div id="lets-connect">
-			    <h2 id="h2-letsconnect"><span>Contact</span></h2>
-			    <address>
-				<a href="mailto:info@teconoilserv.com" class="email">info@teconoilserv.com</a>
-				<br />
-				<strong>HEAD OFFICE</strong>
-				47, Yeshayahu Lasode Crescent,<br/>
-				(By Mobil House), <abbr title="Victoria Island">VI</abbr>, Lagos<br/>
-				Nigeria.<br/><br/>
-			    </address>
-			</div><!-- #lets-connect -->
-		    </div>
-		</div>
 		<hr />
 	    </div><!-- .wrap -->
 	</div><!-- #content -->
 
-	<div id="footer">
-	    <div id="footer-legal">
-		<p>&copy; 2009 Tecon Oil Services Limited</p>
-	    </div><!-- #footer-legal -->
-	</div><!-- #footer -->
+	<?php include("footer.inc.php"); ?>
+
     </body>
 </html>
