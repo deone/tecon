@@ -24,10 +24,12 @@ div.left_column h2  {
     margin-top: 10px;
     margin-left: 10px;
 }
-div.right_column ul {
-    list-style-type: none;
+div.right_column ul, div.right_column address {
     background-color: #dbdbdb;
     padding: 10px;
+}
+div.right_column ul {
+    list-style-type: none;
 }
     div.left_column h2,
     div.right_column h2 {
