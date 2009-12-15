@@ -7,12 +7,12 @@
 		returns to our shareholders.
 	    </p>
 	    <ul>
-		<li><a href="about.html">About Us</a></li>
-		<li><a href="index.html#content">Services</a></li>
-		<li><a href="clients.html">Clients</a></li>
-		<li><a href="projects.html">Projects</a></li>
-		<li><a href="personnel.html">Personnel</a></li>
-		<li><a href="contact.html">Contact Us</a></li>
+		<li><a href="about.php">About Us</a></li>
+		<!--<li><a href="index.php#content">Services</a></li>-->
+		<li><a href="clients.php">Clients</a></li>
+		<li><a href="projects.php">Projects</a></li>
+		<li><a href="personnel.php">Personnel</a></li>
+		<li><a href="contact.php">Contact Us</a></li>
 	    </ul>
 	</div>
     </div>
