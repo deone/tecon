@@ -171,7 +171,7 @@
 		</div>
 
 		<div class="right_column">
-		    <h2 id="h2-ourcapabilities"><span>Our Capabilities</span></h2>
+		    <h2><span>Our Capabilities</span></h2>
 		    <ul>
 			<li>Casing &amp; Tubing Running</li>
 			<li>Downhole &amp; Fishing Tools Rentals &amp; Services</li>
@@ -183,7 +183,8 @@
 		    </ul>
 		</div>
 
-		<hr />
+		<?php include("contact_panel.inc.php"); ?>
+
 	    </div><!-- .wrap -->
 	</div><!-- #content -->
 

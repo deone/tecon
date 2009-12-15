@@ -286,7 +286,8 @@ contractors) for Development Drilling Operations On Shell Ea Offshore</td>
 		    </ul>
 		</div>
 
-		
+		<?php include("contact_panel.inc.php"); ?>
+
 	    </div><!-- .wrap -->
 	</div><!-- #content -->
 
