@@ -12,9 +12,10 @@
 
 	<div id="content">
 	    <div class="wrap">
-		<img src="img/lovelies_opener.jpg" class="large_opening_image" alt="Clients"/>
+		<p class="banner_text">For years now, we've broken new frontiers in the Oilfield <br/>Equipment Rental and Services to the major players in the <br/>upstream sector of the Nigerian Oil and Gas industry.</p>
+		<img src="img/projects_banner.jpg" class="large_opening_image" alt="Projects"/>
 		<div class="left_column no_margin">
-		    <h2 id="h2-lovelies"><span>Projects</span></h2>
+		    <h2><span>Projects</span></h2>
 		    <p>
 			Tecon Oil Services Limited is an Indigenous Oilfield Service Company
 			incorporated under the laws of the Federal Republic of Nigeria. For

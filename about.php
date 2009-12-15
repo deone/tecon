@@ -12,11 +12,14 @@
 
 	<div id="content">
 	    <div class="wrap">
-		<img src="img/lovelies_opener.jpg" class="large_opening_image" alt="Clients"/>
+		<p class="banner_text">
+		    We are driven by excellence and fully committed to <br/>satisfying the needs of our clients through quality service delivery.
+		</p>
+		<img src="img/about_banner.jpg" class="large_opening_image" alt="About Us"/>
 
 		<div class="left_column no_margin">
 		    <div id="whoweare">
-			<h2 id="h2-lovelies"><span>About Us</span></h2>
+			<h2><span>About Us</span></h2>
 			<p class="intro">
 			    A wholly indigenous company, TECON was originally an Isle of Man company controlled by an 
 			    American Investor group through Alliance Oil of Houston, Texas. TECON became a 100% Nigerian 
@@ -43,7 +46,7 @@
 			</p>
 			<p>
 			    The staff of Tecon are driven by excellence and fully committed to satisfying the needs of our 
-			    Clients through quality service delivery. Our inspiration is in our determination to redefine 
+			    clients through quality service delivery. Our inspiration is in our determination to redefine 
 			    the standard of service delivery through the stock of the state of the art equipment, tools, and 
 			    techniques that we deploy for operation. Our aim is to broaden and deepen indigenous service 
 			    capabilities and portfolios in oilfield/well engineering service provision. And our goal is to 

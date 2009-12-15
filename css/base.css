@@ -454,3 +454,17 @@ ul.news li a:hover  {
     color: #000;  
     text-decoration: none;
 }
+.banner_text	{
+    position: absolute;
+    top: 370px;
+    left: 180px;
+    font: 1.5em/1.375 Georgia, "Times New Roman", serif;
+    color: #fff;
+}
+#clients .banner_text	{
+    top: 400px;
+    color: #666;
+}
+#projects .banner_text	{
+    top: 340px;
+}

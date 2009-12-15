@@ -12,9 +12,10 @@
 
 	<div id="content">
 	    <div class="wrap">
-		<img src="img/lovelies_opener.jpg" class="large_opening_image" alt="Clients"/>
+		<p class="banner_text">We have a classy selection of clientele.</p>
+		<img src="img/clients_banner.jpg" class="large_opening_image" alt="Clients"/>
 		<div class="left_column no_margin">
-		    <h2 id="h2-lovelies"><span>Clients</span></h2>
+		    <h2><span>Clients</span></h2>
 		    <p class="intro">Here's a list of companies we do business with:</p>
 		    <table>
 			<thead>
