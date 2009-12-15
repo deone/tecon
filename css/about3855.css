@@ -2,6 +2,7 @@ div.left_column {
     width: 598px;
     float: left;
     margin-left: 14px;
+    background: url("../img/left_col_bg.png") no-repeat;
 }
 div.no_margin {
     margin-left: 0;
@@ -17,6 +18,11 @@ div.right_column h2 {
     color: #fff;
     margin: 0;
     padding: 10px;
+}
+div.left_column h2  {
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 div.right_column ul {
     list-style-type: none;
