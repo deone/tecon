@@ -16,10 +16,12 @@ a:hover {
 }
 #header {
     height: 180px;
-    background-color: #9d8851;
+    background-color: #93733a;
 }
 #logo	{
     margin-top: 25px;
+    width: 280px;
+    height: 135px;
 }
 #header .wrap {
   position: relative;
