@@ -3,7 +3,6 @@
     <head profile="http://gmpg.org/xfn/11">
 	<title>Tecon Oil Services Limited | Clients</title>
 	<link rel="stylesheet" type="text/css" href="css/base.css"/>
-	<script src="js/base_packaged2b6f.js?1256146892" type="text/javascript"></script>
 	<link href="css/about3855.css?1256146886" media="screen" rel="stylesheet" type="text/css" />
     </head>
 

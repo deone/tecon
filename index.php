@@ -110,14 +110,14 @@
 		<div class="right_column">
 		    <h2><span>News Bits</span></h2>
 		    <ul class="news">
-			<li><a href="#">Tecon waxing strong in the swampy waters of Niger Delta.</a></li>
-			<li><a href="#">Tecon establishes presence in Congo, Eni impressed.</a></li>
-			<li><a href="#">Marginal field operators indicate interests in partnering with Tecon.</a></li>
-			<li><a href="#">NigerBlossom rig 101 arrives 1st quarter, 2010.</a></li>
-			<li><a href="#">Tecon acquires new Hydraulic Workover Unit.</a></li>
-			<li><a href="#">Tecon ventures into filtration services.</a></li>
-			<li><a href="#">Tecon collaborates with Boots and Coots on the Yorla fire fighting campaign for NPDC.</a></li>
-			<li><a href="#">Joint Development Authority (JDA) okays Tecon for work in the Joint Development Zone (JDZ).</a></li>
+			<li><a href="news/?news_item=1">Tecon waxing strong in the swampy waters of Niger Delta.</a></li>
+			<li><a href="news/?news_item=2">Tecon establishes presence in Congo, Eni impressed.</a></li>
+			<li><a href="news/?news_item=3">Marginal field operators indicate interests in partnering with Tecon.</a></li>
+			<li><a href="news/?news_item=4">NigerBlossom rig 101 arrives 1st quarter, 2010.</a></li>
+			<li><a href="news/?news_item=5">Tecon acquires new Hydraulic Workover Unit.</a></li>
+			<li><a href="news/?news_item=6">Tecon ventures into filtration services.</a></li>
+			<li><a href="news/?news_item=7">Tecon collaborates with Boots and Coots on the Yorla fire fighting campaign for NPDC.</a></li>
+			<li><a href="news/?news_item=8">Joint Development Authority (JDA) okays Tecon for work in the Joint Development Zone (JDZ).</a></li>
 		    </ul>
 		</div>
 
