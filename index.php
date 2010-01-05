@@ -105,8 +105,6 @@
 		    </div>
 		</div>
 
-		<?php include("capabilities.inc.php"); ?>
-
 		<div class="right_column">
 		    <h2><span>News Bits</span></h2>
 		    <ul class="news">
@@ -119,6 +117,11 @@
 			<li><a href="news/?news_item=7">Tecon collaborates with Boots and Coots on the Yorla fire fighting campaign for NPDC.</a></li>
 			<li><a href="news/?news_item=8">Joint Development Authority (JDA) okays Tecon for work in the Joint Development Zone (JDZ).</a></li>
 		    </ul>
+		</div>
+
+		<div class="right_column">
+		    <h2><span>We're Certified</span></h2>
+		    <div><img src="img/nis_certificate.jpg"/></div>
 		</div>
 
 	    </div><!-- .wrap -->
