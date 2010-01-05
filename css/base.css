@@ -39,9 +39,9 @@ a:hover {
 #header ul a {
     text-transform: uppercase;
     color: #fff;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: bold;
-    padding-left: 20px;
+    padding-left: 15px;
 }
 #header p#mission   {
   position: absolute;
