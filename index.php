@@ -85,7 +85,7 @@
 		</div>
 		<div class="left_column no_margin">
 		    <div id="whoweare">
-			<h2 id="h2-whoweare"><span>Who We Are</span></h2>
+			<h2><span>Who We Are</span></h2>
 			<p class="intro">
 			    Tecon Oil Services Limited is a wholly indigenous, ISO-certified, value-driven company providing 
 			    quality equipment rentals and services to the E&amp;P and Service companies in the upstream sector of 
