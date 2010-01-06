@@ -1,8 +1,7 @@
 @import "foundation.css";
 
 body {
-  font-family: Arial, sans-serif;
-  text-shadow: 1px 1px 1px #fff;
+  font: 10px Arial, sans-serif;
 }
 a {
   color: #3f6a79;
