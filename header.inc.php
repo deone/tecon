@@ -14,7 +14,7 @@
 		<li><a href="projects.php">Projects</a></li>
 		<li><a href="personnel.php">Personnel</a></li>
 		<li><a href="career.php">Career</a></li>
-		<li><a href="news/index.php">News</a></li>
+		<li><a href="news/">News</a></li>
 		<li><a href="contact.php">Contact Us</a></li>
 	    </ul>
 	</div>

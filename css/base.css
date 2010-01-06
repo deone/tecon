@@ -1,7 +1,11 @@
 @import "foundation.css";
 
 body {
+    height: 100%;
   font: 10px Arial, sans-serif;
+}
+p   {
+    line-height: 1.4em;
 }
 a {
   color: #3f6a79;
@@ -75,7 +79,7 @@ h2 span {
 h3 {
   margin: .25em 0 .625em;
   font-size: 2em;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: Tahoma, "Times New Roman", serif;
 }
 #whoweare ul {
   list-style: none;
@@ -352,18 +356,6 @@ ul.gallery li ul.gallery-item-thumbs li a.active img {
 #footer {
   clear: both;
   border-top: 1px solid #fff;
-  background: url(../img/bg-weplusyou.png) 50% 0;
-  color: #c1fff3;
-  text-shadow: 1px 1px 3px #000;
-}
-#footer a {
-  color: #fff;
-  font-size: 1.1em;
-  line-height: 1;
-}
-#footer a:hover {
-  text-decoration: none;
-  background: url(../img/bg-trans.png);
 }
 #footer-legal {
   background: #042b34;
