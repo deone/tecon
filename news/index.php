@@ -20,7 +20,7 @@
 		    <li><a href="#">Services</a></li>
 		    <li><a href="../clients.php">Clients</a></li>
 		    <li><a href="../projects.php">Projects</a></li>
-		    <li><a href="personnel.php">Personnel</a></li>
+		    <li><a href="../personnel.php">Personnel</a></li>
 		    <li><a href="../career.php">Career</a></li>
 		    <li><a href="index.php">News</a></li>
 		    <li><a href="../contact.php">Contact Us</a></li>
