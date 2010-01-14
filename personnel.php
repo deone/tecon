@@ -17,33 +17,14 @@
     </head>
 
     <body id="personnel">
-	<div id="header">
-	    <div class="wrap">
-		<!--<p id="logo">
-		    <a href="index.html">Crush + Lovely</a>
-		</p>-->
-		<p id="mission">
-		    Our mission is to be the preferred indigenous Oilfield Service Contractor providing cost effective / leading 
-		    edge Equipment / Tools, Rental, and Integrated Well Engineering Services to our customers at high investment 
-		    returns to our shareholders.
-		</p>
-		<ul>
-		    <li><a href="about.html">About Us</a></li>
-		    <li><a href="index.html#content">Services</a></li>
-		    <li><a href="clients.html">Clients</a></li>
-		    <li><a href="projects.html">Projects</a></li>
-		    <li><a href="personnel.html">Personnel</a></li>
-		    <li><a href="contact.html">Contact Us</a></li>
-		</ul>
-	    </div><!-- .wrap -->
-	</div><!-- #header -->
+	<?php include("header.inc.php"); ?>
 
 	<div id="content">
 	    <div class="wrap">
-		<h2 id="h2-lovelies"><span>Personnel</span></h2>
-		<img src="img/lovelies_opener.jpg" class="large_opening_image" alt="Clients"/>
+		<img src="img/staff_banner.jpg" class="large_opening_image" alt="Clients"/>
 
 		<div class="left_column no_margin">
+		    <h2><span>Personnel</span></h2>
 		    <div class="crew_pair">
 			<div class="crew_member">
 			    <img src="img/matt.jpg" alt="" />
@@ -287,50 +268,22 @@
 		    </div>
 		</div>
 
-		<div class="right_column">
-		    <h2 id="h2-ourcapabilities"><span>Our Capabilities</span></h2>
-		    <ul>
-			<li>Casing &amp; Tubing Running</li>
-			<li>Downhole &amp; Fishing Tools Rentals &amp; Services</li>
-			<li>Drillstring &amp; Workstring Rentals</li>
-			<li>Hydraulic Workover / Snubbing Services</li>
-			<li>Jar Servicing, Breakout &amp; Testing</li>
-			<li>Machineshop &amp; Fabrication</li>
-			<li>Rental Swamp Barges</li>
-		    </ul>
-		</div>
+		<?php include("capabilities.inc.php"); ?>
 
+		<?php include("contact_panel.inc.php"); ?>
 
-		<div id="communication">
+		<!--<div id="communication">
 		    <div class="left_column">
 			<div id="jointhelist">
 			    <h2 id="h2-jointhelist"><span>Careers</span></h2>
 			    <p>Interested in working with us? <span id="career-info">Send your resume to <strong>careers@teconoilserv.com</strong></span>.</p>
-			</div><!-- #jointhelist -->
+			</div>
 		    </div>
-  
-		    <div class="right_column">
-			<div id="lets-connect">
-			    <h2 id="h2-letsconnect"><span>Contact</span></h2>
-			    <address>
-				<a href="mailto:info@teconoilserv.com" class="email">info@teconoilserv.com</a>
-				<br />
-				<strong>HEAD OFFICE</strong>
-				47, Yeshayahu Lasode Crescent,<br/>
-				(By Mobil House), <abbr title="Victoria Island">VI</abbr>, Lagos<br/>
-				Nigeria.<br/><br/>
-			    </address>
-			</div><!-- #lets-connect -->
-		    </div>
-		</div>
-		<hr />
+		</div>-->
 	    </div><!-- .wrap -->
 	</div><!-- #content -->
 
-	<div id="footer">
-	    <div id="footer-legal">
-		<p>&copy; 2009 Tecon Oil Services Limited</p>
-	    </div><!-- #footer-legal -->
-	</div><!-- #footer -->
+	<?php include("footer.inc.php"); ?>
+
     </body>
 </html>
