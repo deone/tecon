@@ -9,11 +9,11 @@
 	    <ul>
 		<li><a href="index.php">Home</a></li>
 		<li><a href="about.php">About Us</a></li>
-		<li><a href="services.php">Services</a></li>
+		<li><a href="#">Services</a></li>
 		<li><a href="clients.php">Clients</a></li>
 		<li><a href="projects.php">Projects</a></li>
 		<li><a href="personnel.php">Personnel</a></li>
-		<li><a href="career.php">Career</a></li>
+		<li><a href="careers.php">Careers</a></li>
 		<li><a href="news/">News</a></li>
 		<li><a href="contact.php">Contact Us</a></li>
 	    </ul>

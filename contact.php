@@ -11,7 +11,6 @@
 
 	<div id="content">
 	    <div class="wrap">
-		<img src="img/lovelies_opener.jpg" class="large_opening_image" alt="Clients"/>
 		<h2><span>Contact Us</span></h2>
 		<table>
 		    <tbody>
