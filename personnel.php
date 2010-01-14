@@ -272,14 +272,6 @@
 
 		<?php include("contact_panel.inc.php"); ?>
 
-		<!--<div id="communication">
-		    <div class="left_column">
-			<div id="jointhelist">
-			    <h2 id="h2-jointhelist"><span>Careers</span></h2>
-			    <p>Interested in working with us? <span id="career-info">Send your resume to <strong>careers@teconoilserv.com</strong></span>.</p>
-			</div>
-		    </div>
-		</div>-->
 	    </div><!-- .wrap -->
 	</div><!-- #content -->
 
