@@ -1,19 +1,29 @@
 div.left_column {
     width: 598px;
     float: left;
-    margin-left: 14px;
+    margin-left: 46px;
     background: url("../img/left_col_bg.png") no-repeat;
+}
+div.service-item-body	{
+    width: 624px;
 }
 div.no_margin {
     margin-left: 0;
     width: 624px;
 }
-
 div.right_column    {
-    width: 280px;
     float: right;
 }
-div.right_column h2 {
+div.service-menu    {
+    float: left;
+}
+div.service-menu ul li	{
+    margin-bottom: 0.5em;
+}
+div.right_column, div.service-menu    {
+    width: 280px;
+}
+div.right_column h2, div.service-menu h2    {
     background-color: #5c5c5c;
     color: #fff;
     margin: 0;
@@ -24,15 +34,15 @@ div.left_column h2  {
     margin-top: 10px;
     margin-left: 10px;
 }
-div.right_column ul, div.right_column address {
+div.right_column ul, div.right_column address, div.service-menu ul {
     background-color: #dbdbdb;
     padding: 10px;
 }
-div.right_column ul {
+div.right_column ul, div.service-menu ul    {
     list-style-type: none;
 }
     div.left_column h2,
-    div.right_column h2 {
+    div.right_column h2, div.service-menu h2 {
       position: relative;
     }
     
@@ -42,7 +52,7 @@ div.right_column ul {
     
     div.right_column p,
     div.right_column ul,
-    div.right_column #lets-connect { margin-bottom: 1.5em; }
+    div.right_column #lets-connect, div.service-menu ul { margin-bottom: 1.5em; }
 
     div.right_column #lets-connect {
       background: url(../images/layout/map_alt.png) 0 32px no-repeat;
@@ -82,14 +92,6 @@ div.right_column ul {
       margin: 0 auto 30px;
       border: 4px #d2d1c1 solid;
     }
-    
-    a.return-to-hello {
-      float: right;
-      display: block;
-      padding: 8px 8px 6px;
-      background: url(../images/layout/bg-return-to-hello.png) right 0 repeat-y;
-    }
-    
     
     
     /*	Partials
@@ -139,6 +141,21 @@ div.right_column ul {
       text-indent: -9999em;
     }
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     /*	Meet the Crew
     ...................................................................... */
     

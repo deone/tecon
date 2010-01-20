@@ -322,6 +322,7 @@ ul.gallery li ul.gallery-item-thumbs li a.active img {
   margin-right: 20px;
   font-size: 1.05em;
   line-height: 1.375;
+  font-style: italic;
 }
 #feature-content ul.features-menu {
   position: absolute;

@@ -21,7 +21,7 @@
 		<ul>
 		    <li><a href="../index.php">Home</a></li>
 		    <li><a href="../about.php">About Us</a></li>
-		    <li><a href="#">Services</a></li>
+		    <li><a href="../services/">Services</a></li>
 		    <li><a href="../clients.php">Clients</a></li>
 		    <li><a href="../projects.php">Projects</a></li>
 		    <li><a href="../personnel.php">Personnel</a></li>
@@ -34,11 +34,6 @@
 
 	<div id="content">
 	    <div class="wrap">
-		<!--<p class="banner_text">
-		    We are driven by excellence and fully committed to <br/>satisfying the needs of our clients through quality service delivery.
-		</p>
-		<img src="../img/about_banner.jpg" class="large_opening_image" alt="About Us"/>-->
-
 		<div class="left_column no_margin">
 		    <div id="whoweare">
 			<h2><span>News</span></h2>

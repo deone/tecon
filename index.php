@@ -15,67 +15,62 @@
 		<div id="feature-content">
 		    <div id="features">
 			<div class="feature">
-			    <a href="#"><img alt="Casing &amp; Tubing Running" src="img/piping.jpg"/></a>
+			    <a href="services/fishing_tools.php"><img alt="Fishing Equipment, Tools &amp; Accessories" src="img/fishing_tools.jpg"/></a>
 
 			    <div class="feature-content">
-				<h2>Casing &amp; Tubing Running</h2>
-				<p>&nbsp;</p>
+				<h2>Fishing Equipment, Tools &amp; Accessories</h2>
+				<p>The bulk of our fishing tools is manufactured by Bowen Tools Inc., Houston, Texas, the premier fishing tools manufacturing company in the world.</p>
 			    </div>
 			</div>
 
 			<div class="feature" style="display: none;">
-			    <a href="#"><img alt="Downhole &amp; Fishing Tools Rentals &amp; Services" src="img/fishing_tools.jpg"/></a>
+			    <a href="services/drill_strings.php"><img alt="Drill Strings &amp; Downhole Drilling Tools Rentals &amp; Services" src="img/drill_pipe.jpg"/></a>
 
 			    <div class="feature-content">
-				<h2>Downhole &amp; Fishing Tools Rentals &amp; Services</h2>
-				<p>&nbsp;</p>
+				<h2>Drill Strings &amp; Downhole Drilling Tools Rentals &amp; Services</h2>
+				<p>We have the capacity to provide Drilling Rigs and the operators with one stop Drill Strings and Downhole.
+				</p>
 			  </div>
 			</div> 
 
 			<div class="feature" style="display: none;">
-			    <a href="#"><img alt="Drillstring &amp; Workstring Rentals" src="img/drillstring.jpg"/></a>
+			    <a href="services/machine_shop.php"><img alt="Machineshop, Welding, Tool Redressing, Manufacturing and Maintenance Services." src="img/machine_shop.jpg"/></a>
 
 			    <div class="feature-content">
-				<h2>Drillstring &amp; Workstring Rentals</h2>
-				<p>&nbsp;</p>
+				<h2>Machineshop, Welding, Tool Redressing, Manufacturing and Maintenance Services</h2>
+				<p>We can machine and cut threads, reface / rebuild tools and manufacture tools and spare parts to API even higher premium standards.
+				</p>
 			  </div> 
 			</div> 
 
 			<div class="feature" style="display: none;">
-			    <a href="#"><img alt="Hydraulic Workover / Snubbing Services" src="img/hydraulic.jpg"/></a>
+			    <a href="services/rig_equipments.php"><img alt="Rig Floor Equipment Supply and Services." src="img/rig_equipment.jpg"/></a>
 
 			    <div class="feature-content">
-				<h2>Hydraulic Workover / Snubbing Services</h2>
-				<p>&nbsp;</p>
+				<h2>Rig Floor Equipment Supply and Services</h2>
+				<p>Exclusive Rental Supply of rotating mouse hole tool, international twister torque tool, among many others.</p>
 			  </div> 
 			</div> 
 
 			<div class="feature" style="display: none;">
-			    <a href="#"><img alt="Jar Servicing, Breakout &amp; Testing" src="img/piping.jpg"/></a>
+			    <a href="services/casing_equipments.php"><img alt="Casing/Tubing Running Equipment Rentals & Services" src="img/casing_equipment.jpg"/></a>
 
 			    <div class="feature-content">
-				<h2>Jar Servicing, Breakout &amp; Testing</h2>
-				<p>&nbsp;</p>
+				<h2>Casing/Tubing Running Equipment Rentals & Services</h2>
+				<p>Hydraulic power tongs, power packs, computerized torque turn equipment, consumables and casing crew, handling tools etc.</p>
 			  </div> 
 			</div> 
 
 			<div class="feature" style="display: none;">
-			    <a href="#"><img alt="Machineshop &amp; Fabrication" src="img/piping.jpg"/></a>
+			    <a href="services/well_intervention.php"><img alt="Well Intervention Services" src="img/well_intervention.jpg"/></a>
 
 			    <div class="feature-content">
-				<h2>Machineshop &amp; Fabrication</h2>
-				<p>&nbsp;</p>
+				<h2>Well Intervention Services</h2>
+				<p>Tecon currently owns two Hydraulic Workover Units, which are engaged in active snubbing operations for SPDC.
+				</p>
 			  </div> 
 			</div> 
 
-			<div class="feature" style="display: none;">
-			    <a href="#"><img alt="Rental Swamp Barges" src="img/piping.jpg"/></a>
-
-			    <div class="feature-content">
-				<h2>Rental Swamp Barges</h2>
-				<p>&nbsp;</p>
-			  </div> 
-			</div> 
 		    </div>
 
 		    <ul class="features-menu">
