@@ -44,7 +44,7 @@
 			</div> 
 
 			<div class="feature" style="display: none;">
-			    <a href="services/rig_equipments.php"><img alt="Rig Floor Equipment Supply and Services." src="img/rig_equipment.jpg"/></a>
+			    <a href="services/rig_equipment.php"><img alt="Rig Floor Equipment Supply and Services." src="img/rig_equipment.jpg"/></a>
 
 			    <div class="feature-content">
 				<h2>Rig Floor Equipment Supply and Services</h2>
@@ -53,7 +53,7 @@
 			</div> 
 
 			<div class="feature" style="display: none;">
-			    <a href="services/casing_equipments.php"><img alt="Casing/Tubing Running Equipment Rentals & Services" src="img/casing_equipment.jpg"/></a>
+			    <a href="services/casing_equipment.php"><img alt="Casing/Tubing Running Equipment Rentals & Services" src="img/casing_equipment.jpg"/></a>
 
 			    <div class="feature-content">
 				<h2>Casing/Tubing Running Equipment Rentals & Services</h2>

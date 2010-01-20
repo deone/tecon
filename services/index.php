@@ -24,18 +24,19 @@
 			    redressing, precision machining, maintenance and manufacturing capabilities,
 			    We are proud to have under our management, the largest and most versatile
 			    inventory of independent company-owned Hydraulic Workover Units, <a href="fishing_tools.php">Fishing
-			    Equipment and Tools</a>, <a href="#">Casing &amp; Tubing Running Equipment</a> and <a href="#">Handling 
-			    Tools, Milling Tools</a>, <a href="#">Drill Strings and Downhole Drilling Tools</a> in 
-			    the Nigeria Oil and Gas theater of operations; out of large warehouses, workshops and offices in the oil
-			    cities of Port Harcourt and Warri, Nigeria.
+			    Equipment and Tools</a>, <a href="casing_equipment.php">Casing &amp; Tubing Running Equipment</a> 
+			    and <a href="machine_shop.php">Handling Tools, Milling Tools</a>, 
+			    <a href="drill_strings.php">Drill Strings and Downhole Drilling Tools</a> in the Nigeria Oil and Gas 
+			    theater of operations; out of large warehouses, workshops and offices in the oil cities of Port Harcourt 
+			    and Warri, Nigeria.
 			</p>
 			<p>
 			    We also have a committed pool of highly
 			    trained, experienced, and truly tested HWO/Snubbing Crew, Fishing Specialists 
 			    for Cased-Hole, Open Hole and Slim Hole Fishing, Horizontal/Multilateral Wells 
 			    Contingency Fishing Support. Experienced Casing &amp; Tubing Engineers are also 
-			    available as well as <a href="#">Drilling Supervisors on Rigs</a>, Drill Stem Design and <a href="#">Well 
-			    Engineering Consultants</a>.
+			    available as well as <a href="rig_equipment.php">Drilling Supervisors on Rigs</a>, 
+			    Drill Stem Design and <a href="well_intervention.php">Well Engineering Consultants</a>.
 			</p>
 		    </div>
 		</div>

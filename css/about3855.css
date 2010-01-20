@@ -7,6 +7,9 @@ div.left_column {
 div.service-item-body	{
     width: 624px;
 }
+div.service-item-body ul    {
+    margin-left: 20px;
+}
 div.no_margin {
     margin-left: 0;
     width: 624px;
@@ -17,7 +20,7 @@ div.right_column    {
 div.service-menu    {
     float: left;
 }
-div.service-menu ul li	{
+div.service-menu ul li, div.service-item-body ul li    {
     margin-bottom: 0.5em;
 }
 div.right_column, div.service-menu    {
